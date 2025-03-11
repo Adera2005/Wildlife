@@ -1,9 +1,10 @@
 
-.Logo.img{ background-color:white;
+.Logo.img{ background-color:black;
     display:block;
    margin:auto;
     opacity: 1;
-
+ height:200px  ;
+ width: 883px  ;
 }
 
 .Landing.img{
@@ -21,7 +22,7 @@ main{
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     font-style: normal;
-    font-weight: bold;
+    font-weight: light;
    width:90%;
    max-width:1200px;
    margin:auto;
@@ -31,13 +32,13 @@ main{
 footer{background-color:black;
        color:white;
        text-align:centre;
-       width:100%;
-       position:fixed;
+       width:50%;
+       
        bottom:0;
        padding:10px;
        
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
+    font-weight: 300px;
     font-size: larger;
     font-style: italic;
 }
@@ -59,7 +60,7 @@ width:100%
 }
 nav a {
 font-size:20px;
-padding:10px 20px;
+padding:5px 10px;
 text-decoration:none;
 color:white;
 background-color:black;
