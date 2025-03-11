@@ -1,11 +1,12 @@
+.logo-container{
+background-color:black;
+text-align:center;
+padding:20px;
 .Logo.img{height: 200px;
           width: 883px;
-    padding: 80px;
-    border: 20px solid white; 
-    margin: 100px;
-    color: black;
-    background-color: black;
-    opacity: 0.5;
+    display:block;
+   margin:auto;
+    opacity: 1;
 
 }
 
@@ -44,9 +45,16 @@ a:hover{
     text-decoration: underline;
 }
 nav{
-text-align:center;
+display:flex;
+justify-content:center;
 display:block;
 width:100%
 }
 nav a {
-display:inline-block;}
+font-size:20px;
+padding:10px 20px;
+text-decoration:none;
+color:white;
+background-color:black;
+border-radius:5px;
+}
