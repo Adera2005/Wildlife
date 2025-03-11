@@ -1,0 +1,45 @@
+.Logo image{height: 200px; width: 883px;
+    padding: 80px;
+    border: 20px;
+    border-radius: 20%; border-color white;
+    margin: 20px;
+    color: black;
+    background-color: white;
+    opacity: 0.75;
+
+}
+
+.Landing image{
+    height: 735px;
+    width:490px;
+    padding: 20px;
+    border: 3px white;
+    border-radius: 20%; border-color white;
+    margin: 20px;
+    color: black;
+    background-color: white;
+    opacity: 0.75;
+}  
+.main section{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+
+}
+.my details{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: italic;
+}
+a:link{
+    color: blue;
+    text-decoration:none;
+}
+
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
