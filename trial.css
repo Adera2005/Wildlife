@@ -26,13 +26,13 @@ main{
    width:90%;
    max-width:1200px;
    margin:auto;
-   padding:20px;
+   padding:20px 20px 80px;
 
 }
 footer{background-color:black;
        color:white;
        text-align:centre;
-       width:100%;
+       width:50%;
        height:50px
        bottom:0;
        padding:10px;
