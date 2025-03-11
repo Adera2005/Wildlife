@@ -1,4 +1,5 @@
-.Logo img{height: 200px; width: 883px;
+.Logo.img{height: 200px;
+          width: 883px;
     padding: 80px;
     border: 20px solid white;
     border-radius: 20%; 
@@ -9,7 +10,7 @@
 
 }
 
-.Landing img{
+.Landing.img{
     height: 735px;
     width:490px;
     padding: 20px;
@@ -27,7 +28,7 @@
     font-weight: bold;
 
 }
-.my details{
+.my-details{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     font-size: larger;
