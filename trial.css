@@ -21,14 +21,25 @@ padding:20px;
     background-color: white;
     opacity: 0.5;
 }  
-.main section{
+main{
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     font-style: normal;
     font-weight: bold;
+   width:90%;
+   max-width:1200px;
+   margin:auto;
+   padding:20px;
 
 }
-.my-details{
+footer{background-color:black;
+       color:white;
+       text-align:centre;
+       width:100%;
+       position:fixed;
+       bottom:0;
+       padding:10px;
+       
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     font-size: larger;
