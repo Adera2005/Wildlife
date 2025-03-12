@@ -27,7 +27,7 @@ main{
    max-width:1200px;
    margin:auto;
    padding:20px 20px 80px;
-
+   flex-grow: 1;
 }
 footer{background-color:black;
        color:white;
@@ -65,4 +65,9 @@ text-decoration:none;
 color:white;
 background-color:black;
 border-radius:5px;
+}
+body{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
