@@ -27,12 +27,12 @@ main{
    max-width:1200px;
    margin:auto;
    padding:20px 20px 80px;
-   flex-grow: 1;
+   
 }
 footer{background-color:black;
        color:white;
        text-align:centre;
-       width:50%;
+       width:50%; align:right;
        height:50px
        bottom:0;
        padding:10px;
@@ -65,9 +65,4 @@ text-decoration:none;
 color:white;
 background-color:black;
 border-radius:5px;
-}
-body{
-display: flex;
-flex-direction: column;
-
 }
