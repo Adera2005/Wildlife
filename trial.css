@@ -34,6 +34,7 @@ main{
     align-items:flex-start;
     padding:20px;
     gap:20px;
+    width:100%;
 }
 footer{background-color:black;
        color:white;
@@ -84,4 +85,6 @@ body{
 }
 article{flex:1;
         font-size:18px;
+        max-width:500px;
+        line-height:1.6;
        }
