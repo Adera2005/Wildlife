@@ -63,12 +63,12 @@ nav{
 display:flex;
 justify-content:center;
 align-items:center;
-display:block;
+text-align:center;
 width:100%;
 gap:15px;
 flex-wrap:wrap;
 margin-bottom:15px;
-flex-direction:column;
+
 }
 nav a {
 font-size:20px;
