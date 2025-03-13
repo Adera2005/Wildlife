@@ -23,18 +23,7 @@ flex-direction:column;}
     background-color: white;
     opacity: 0.5;
 }  
-main{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    font-style: normal;
-    font-weight: light;
-   margin-top:10px;
-   dispay:flex;
-    justify-content:center;
-    align-items:flex-start;
-    padding:20px;
-    gap:20px;
-}
+
 footer{background-color:black;
        color:white;
        text-align:centre;
@@ -71,6 +60,18 @@ margin-bottom:15px;
 flex-direction:column;
 padding:15px;
 
+}
+main{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: normal;
+    font-weight: light;
+   margin-top:10px;
+   dispay:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:20px;
+    gap:20px;
 }
 nav a {
 font-size:20px;
