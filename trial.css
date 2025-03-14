@@ -13,7 +13,10 @@ flex-direction:column;}
 }
 body,header{display:flex;
        flex-direction:row;
-       align-items:center;}
+       align-items:center; 
+        align-items:space-evenly;
+        flex-wrap:wrap;
+        }
 
 .image{height: 735px;
     width:490px;
