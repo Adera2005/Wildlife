@@ -16,8 +16,12 @@ header{display:flex;
        align-items:center; 
         align-items:space-evenly;
         flex-wrap:wrap;
-       margin-left:200px;
+       justify-content:center;
+       width:100%
         }
+.logo{
+    display:block;
+    margin:auto;}
 
 .image{height: 735px;
     width:490px;
