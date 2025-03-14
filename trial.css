@@ -11,6 +11,10 @@ flex-direction:column;}
  height:200px;
  width:883px;
 }
+header{display:flex;
+       flex-direction:row;
+       align-items:center;}
+
 .image{height: 735px;
     width:490px;
     padding: 20px;
