@@ -11,7 +11,7 @@ flex-direction:column;}
  height:200px;
  width:883px;
 }
-.cheetah{height: 735px;
+.image{height: 735px;
     width:490px;
     padding: 20px;
     border: 10px  solid black;
@@ -96,4 +96,6 @@ body{
     display:flex;
     flex-direction: column;
 }
-
+header{
+    display:flex;
+    justify-content:center;}
