@@ -14,7 +14,6 @@ flex-direction:column;}
 header{display:flex;
        flex-direction:row;
        align-items:center; 
-        align-items:space-evenly;
         flex-wrap:wrap;
        justify-content:center;
        width:100%
