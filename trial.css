@@ -47,7 +47,7 @@ header{display:flex;
 
 footer{background-color:black;
        color:white;
-       text-align:centre;
+       text-align:right;
        position:relative;
        width:100%; 
        height:50px
