@@ -19,14 +19,22 @@
 
 <form>
 <select>Animals
-<option><a href="Cheetahanimal.html">Cheetah</a> </option>
-<option>African Savannah Elephant </option>
-<option>Black Backed Jackal </option>
-<option>Bat-eared Foxes </option>
-<option>Dik-diks </option>
-<option>Hyenas</option>
-<option> White Bellied go away birds</option>
-<option> Desert Wathog  </option>
+<option>Cheetah </option>
+<option> <a href="#" onclick="goToPage('Elephant.html')"</option>
+<option><a href="#" onclick="goToPage('Black-backed jackal.html')"Black Backed Jackal </option>
+<option><a href="#" onclick="goToPage('Bat eared fox.html')"Bat-eared Foxes </option>
+<option><a href="#" onclick="goToPage('Dik-diks.html')"Dik-diks </option>
+<option><a href="#" onclick="goToPage('Hyenas.html')"Hyenas</option>
+<option> <a href="#" onclick="goToPage('White bellied go away bird.html')"White Bellied go away birds</option>
+<option><a href="#" onclick="goToPage('Desert warthogs.html')" Desert Wathog  </option>
+
+</select>
+<script>
+function goToPage(page){
+window.location.href=page;
+}
+</script>
+
 
 </select>
 </form>
