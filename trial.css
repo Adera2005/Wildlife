@@ -111,31 +111,51 @@ body{
 article{
     margin-top:50px;
     max-width:600px;}
-.dropdown{
-    display:inline-block;}
-.dropdown button{
-    background-color:white;
-    color:white;
-    padding:10px 15px;
-    cursor:pointer;
-    border:none;}
-.dropdown a{
-    display:block;
-    color:black;
-    text-decoration:none;
-    padding:10px 15px;}
-.dropdown.content{
-    background-color:white;
-    position:absolute;
-    min-width:100px;
-    box-shadow:2px 2px 5px black;
-    display:none;}
-.dropdown:hover .content{
-    display:block;}
-.dropdown:hover button{
-    background-color:blue;}
-.dropdown a:hover{
-  background-color:blue;}  
-    
-    
-    
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Button for the dropdown */
+.dropdown-button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.dropdown-button:hover {
+  background-color: blue;
+}
+
+/* The actual dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* Show the dropdown when hovering over the button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
