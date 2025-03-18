@@ -111,24 +111,25 @@ body{
 article{
     margin-top:50px;
     max-width:600px;}
-
-/* Dropdown container */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Button for the dropdown */
-.dropdown-button {
+/* Button for the dropdown (Styled like links) */
+.dropdown button {
   background-color: black;
   color: white;
   padding: 10px 15px;
   cursor: pointer;
   border: none;
   border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.dropdown-button:hover {
+/* Hover effect for the button */
+.dropdown button:hover {
   background-color: blue;
 }
 
@@ -155,7 +156,9 @@ article{
   color: white;
 }
 
-/* Show the dropdown when hovering over the button */
+/* Show the dropdown content when hovering over the parent dropdown */
 .dropdown:hover .dropdown-content {
   display: block;
-}
+
+
+  
