@@ -35,7 +35,7 @@ header {
     width: 490px;
     padding: 10px;
     border: 10px solid black;
-    border-radius: 5%;
+    border-radius: 15%;
     margin: 20px;
     color: black;
     background-color: white;
@@ -97,7 +97,7 @@ nav {
 
 main {
     font-family: 'Montserrat', sans-serif; 
-  font-size: 48px;
+  font-size: 15px;
     font-style: normal;
     font-weight: light;
     margin-top: 10px;
