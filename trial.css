@@ -35,7 +35,7 @@ header {
     width: 490px;
     padding: 10px;
     border: 10px solid black;
-    border-radius: 15%;
+    border-radius: 20%;
     margin: 20px;
     color: black;
     background-color: white;
@@ -45,7 +45,7 @@ header {
 .Landing.img {
     height: 735px;
     width: 490px;
-    padding: 20px;
+    padding: 10px;
     border: 10px solid black;
     border-radius: 20%;
     margin: 20px;
@@ -98,7 +98,7 @@ nav {
 main {
     'Times New Roman', Times, serif;
   font-size: medium;
-
+  word-spacing: 8px;
     font-style: normal;
     font-weight: light;
     margin-top: 10px;
