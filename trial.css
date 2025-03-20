@@ -66,10 +66,10 @@ footer {
     
     display: flex;
     justify-content: flex-start;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-family: 'Dancing Script', cursive;  /* or 'Pacifico', 'Great Vibes', 'Allura' */
-  font-size: 60px;  /* Adjust based on the space you want it to occupy */
-  line-height: 1.2;
+    font-weight: 300px;
+    font-size: larger;
+    font-style: italic;
+
 }
 
 a:link {
