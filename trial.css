@@ -98,7 +98,7 @@ nav {
 main {
     'Times New Roman', Times, serif;
   font-size: medium;
-  word-spacing: 8px;
+   line-height:1.5; 
     font-style: normal;
     font-weight: light;
     margin-top: 10px;
