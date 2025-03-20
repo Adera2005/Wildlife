@@ -64,6 +64,7 @@ footer {
     height: 50px;
     bottom: 0;
     padding: 10px;
+    padding-bottom:15px;
     display: flex;
     justify-content: flex-start;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
