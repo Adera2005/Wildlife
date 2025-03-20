@@ -33,9 +33,9 @@ header {
 .image {
     height: 735px;
     width: 490px;
-    padding: 20px;
+    padding: 10px;
     border: 10px solid black;
-    border-radius: 20%;
+    border-radius: 5%;
     margin: 20px;
     color: black;
     background-color: white;
@@ -67,9 +67,9 @@ footer {
     display: flex;
     justify-content: flex-start;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 300px;
-    font-size: larger;
-    font-style: italic;
+    font-family: 'Dancing Script', cursive;  /* or 'Pacifico', 'Great Vibes', 'Allura' */
+  font-size: 60px;  /* Adjust based on the space you want it to occupy */
+  line-height: 1.2;
 }
 
 a:link {
