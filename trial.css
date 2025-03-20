@@ -96,8 +96,9 @@ nav {
 }
 
 main {
-    font-family: 'Montserrat', sans-serif; 
-  font-size: 15px;
+    'Times New Roman', Times, serif;
+  font-size: medium;
+
     font-style: normal;
     font-weight: light;
     margin-top: 10px;
