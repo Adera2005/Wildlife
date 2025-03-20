@@ -159,10 +159,11 @@ article {
 
 /* Dropdown links */
 .dropdown-content a {
-    color: black; /* Ensuring text is visible */
+    color: white; /* Ensuring text is visible */
     padding: 12px 16px;
     display: block;
     text-decoration: none;
+    background-color:black;
 }
 
 /* Hover effect for dropdown links */
